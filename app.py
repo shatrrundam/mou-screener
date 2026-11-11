@@ -257,7 +257,7 @@ def main():
             st.caption("API key loaded securely from app secrets.")
         else:
             api_key = st.text_input("Gemini API key", type="password")
-        model = st.text_input("Model", value="gemini-2.5-flash")
+        model = st.text_input("Model", value="gemini-3.8-flash")
         st.divider()
         st.header("MoU template")
         st.write("Send this to the incoming party to fill in.")
